@@ -39,7 +39,7 @@ import dev.ell.koogstructuredoutput.agent.UserDetailsResponse
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 
-val samples = listOf<Pair<String, String>>(
+val samples = listOf(
     ("Sample 1" to "Generate a profile for a 25 year old developer from Canada"),
     ("Sample 2" to "Generate a profile with name Jack, with age of 40 from London"),
     ("Sample 3" to "Generate a sample user profile with name, age, and nationality "),
@@ -153,7 +153,7 @@ fun OutlineChipsView(data: Pair<String, String>, onClick: () -> Unit) {
             modifier = Modifier.fillMaxWidth()
         ) {
             Text(
-                text = "Name: ${data.first}",
+                text = data.first,
                 style = MaterialTheme.typography.bodyMedium,
 
                 )
