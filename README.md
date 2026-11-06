@@ -5,7 +5,7 @@ A **Kotlin Multiplatform (KMP)** project targeting **Android**, **iOS**, and **D
 The application prompts a locally running **Ollama** model (`llama3.2`) to generate realistic fictional user profiles. Using Koog's structured output node and schema annotations, the AI responses are guaranteed to conform to strongly-typed Kotlin data classes, which are automatically parsed and displayed in a shared **Compose Multiplatform** UI.
 
 
-<img src="https://github.com/livingstonantony/KMPInstaloader/blob/master/docs/demo_screenshot.png">
+<img src="https://github.com/livingstonantony/KMPInstaloader/blob/master/docs/](https://github.com/livingstonantony/KoogStructuredOutput/tree/master/docs/demo_screenshot.png">
 ---
 
 ## 🚀 Features
