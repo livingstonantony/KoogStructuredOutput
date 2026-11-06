@@ -6,6 +6,7 @@ The application prompts a locally running **Ollama** model (`llama3.2`) to gener
 
 
 <img src="https://github.com/livingstonantony/KoogStructuredOutput/blob/master/docs/demo_screenshot.png">
+
 ---
 
 ## 🚀 Features
