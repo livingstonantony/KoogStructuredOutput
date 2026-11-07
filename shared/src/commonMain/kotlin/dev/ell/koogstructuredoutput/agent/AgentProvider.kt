@@ -19,7 +19,7 @@ import kotlinx.serialization.json.Json
 @LLMDescription("A fictional user's profile information")
 data class UserDetailsResponse(
 
-    @property:LLMDescription("Full name of the user")
+    @property:LLMDescription("Name of the user")
     val name: String,
 
     @property:LLMDescription("Age of the user as an integer")
